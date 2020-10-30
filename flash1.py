@@ -34,10 +34,10 @@ else: print("Pon una linea en minusculas pelotudo")
 if(flash_1==285):
     print('Toplaner tiene flash, saco wea')
 elif(flash_2==285):
-    print('El jg tiene flash, saco wea')
+    print('El Jungler tiene flash, saco wea')
 elif(flash_3==285):
     print('Midlaner tiene flash, saco wea')
 elif(flash_4==285):
-    print('El adc tiene flash, saco wea')
+    print('El Adcarry tiene flash, saco wea')
 elif(flash_5==285):
-    print('El supp tiene flash, saco wea')
+    print('El Support tiene flash, saco wea')
