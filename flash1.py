@@ -1,12 +1,12 @@
 import time
 
-flashtop=input(str("¿Quien gastó flash?"))
+flashtop=input(str("¿Quien gastó flash?" ))
 
-flash_1 = 285
-flash_2 = 285
-flash_3 = 285
-flash_4 = 285
-flash_5 = 285
+flash_1 = 0
+flash_2 = 0
+flash_3 = 0
+flash_4 = 0
+flash_5 = 0
 
 if flashtop=="top":
     for i in range(0,285,+1):
