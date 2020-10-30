@@ -1,12 +1,8 @@
 import time
 
-#for i in range(0,285,+1):
-
- #   print (i)
-
- #   time.sleep(0.0001)
-
-
+for i in range(0,285,+1):
+ print (i)
+ time.sleep(0.0001)
 
 
 
