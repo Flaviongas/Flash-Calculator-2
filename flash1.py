@@ -10,7 +10,7 @@ import time
 
 
 
-flash_1 = 253
+flash_1 = 500
 
 if(flash_1==253):
     print('Toplaner tiene flash, saco wea')
