@@ -1,10 +1,10 @@
 import time
 
-for i in range(0,253,+1):
+#for i in range(0,253,+1):
 
-    print (i)
+ #   print (i)
 
-    time.sleep(0.0001)
+ #   time.sleep(0.0001)
 
 
 
@@ -12,7 +12,8 @@ for i in range(0,253,+1):
 
 flash_1 = 253
 
-if(flash_1==253):{print('Toplaner tiene flash, saco wea')}
+if(flash_1==253):
+    print('Toplaner tiene flash, saco wea')
 
 
 
