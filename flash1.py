@@ -39,10 +39,56 @@ def supp():
 boton1 = tkinter.Button(
   miFrame,
   text = "TOP",
+  height=5,
+  width=12,
   command = top
 )
 boton1.pack()
-boton1.place(x=290, y=290)
+boton1.place(x=0, y=150)
+
+
+boton2 = tkinter.Button(
+  miFrame,
+  text = "JG",
+  height=5,
+  width=12,
+  command = jg
+)
+boton2.pack()
+boton2.place(x=120, y=150)
+
+
+boton3 = tkinter.Button(
+  miFrame,
+  text = "MID",
+  height=5,
+  width=12,
+  command = mid
+)
+boton3.pack()
+boton3.place(x=240, y=150)
+
+
+boton4 = tkinter.Button(
+  miFrame,
+  text = "ADC",
+  height=5,
+  width=12,
+  command = adc
+)
+boton4.pack()
+boton4.place(x=360, y=150)
+
+
+boton5 = tkinter.Button(
+  miFrame,
+  text = "SUPP",
+  height=5,
+  width=12,
+  command = supp
+)
+boton5.pack()
+boton5.place(x=480, y=150)
 
 
 
