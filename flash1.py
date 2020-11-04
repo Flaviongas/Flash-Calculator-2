@@ -3,6 +3,10 @@ import tkinter
 from tkinter import messagebox
 raiz = tkinter.Tk()
 
+raiz.lift()
+raiz.attributes("-topmost",True)
+
+
 raiz.title("Flash Calculator")
 raiz.resizable(False, False)
 raiz.geometry("650x350")
@@ -16,25 +20,28 @@ miFrame.config(relief="groove")
 miLabel = tkinter.Label(miFrame, text="Flash Calculator 2", font=("Helvetica", 30)).place(x=140, y=10)
 
 
+
 def top():
-        time.sleep(5)
-        tkinter.messagebox.showinfo(message="FLASH", title="El top tiene flash")
+        time.sleep(285)
+        tkinter.messagebox.showinfo(message="TOP TIENE FLASH", title="El top tiene flash")
 
 def jg():
-    time.sleep(5)
-    tkinter.messagebox.showinfo(message="FLASH", title="El jg tiene flash")
+    time.sleep(285)
+    tkinter.messagebox.showinfo(message="JG TIENE FLASH", title="El jg tiene flash")
 
 def mid():
-    time.sleep(5)
-    tkinter.messagebox.showinfo(message="FLASH", title="El mid tiene flash")
+    time.sleep(285)
+    tkinter.messagebox.showinfo(message="MID TIENE FLASH", title="El mid tiene flash")
 
 def adc():
-    time.sleep(5)
-    tkinter.messagebox.showinfo(message="FLASH", title="El adc tiene flash")
+    time.sleep(285)
+    tkinter.messagebox.showinfo(message="ADC TIENE FLASH", title="El adc tiene flash")
 
 def supp():
-    time.sleep(5)
-    tkinter.messagebox.showinfo(message="FLASH", title="El supp tiene flash")
+    time.sleep(285)
+    tkinter.messagebox.showinfo(message="SUPP TIENE FLASH", title="El supp tiene flash")
+
+
 
 boton1 = tkinter.Button(
   miFrame,
