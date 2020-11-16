@@ -2,7 +2,6 @@ import tkinter
 from tkinter import messagebox
 import winsound
 
-
 raiz = tkinter.Tk()
 
 raiz.lift()
@@ -21,49 +20,50 @@ miFrame.config(relief="groove")
 miLabel = tkinter.Label(miFrame, text="Flash Calculator 2", font=("Helvetica", 30)).place(x=140, y=10)
 
 
-
 def top():
-    raiz.after(5000, topdvd)
-
-
+    raiz.after(300000, topdvd)
 
 
 def jg():
-    raiz.after(5000, jgdvd)
-
+    raiz.after(300000, jgdvd)
 
 
 def mid():
-    raiz.after(5000, middvd)
+    raiz.after(300000, middvd)
 
 
 def adc():
-    raiz.after(5000, adcdvd)
+    raiz.after(300000, adcdvd)
 
 
 def supp():
-    raiz.after(5000, suppdvd)
+    raiz.after(300000, suppdvd)
 
 
 def topdvd():
     winsound.PlaySound(r'C:\Users\flavy\Downloads\top.wav', winsound.SND_FILENAME)
-    #tkinter.messagebox.showinfo(message="TOP TIENE FLASH", title="El top tiene flash")
+    # tkinter.messagebox.showinfo(message="TOP TIENE FLASH", title="El top tiene flash")
+
 
 def jgdvd():
     winsound.PlaySound(r'C:\Users\flavy\Downloads\jg.wav', winsound.SND_FILENAME)
-    #tkinter.messagebox.showinfo(message="JG TIENE FLASH", title="El jg tiene flash")
+    # tkinter.messagebox.showinfo(message="JG TIENE FLASH", title="El jg tiene flash")
+
 
 def middvd():
     winsound.PlaySound(r'C:\Users\flavy\Downloads\mid.wav', winsound.SND_FILENAME)
-    #tkinter.messagebox.showinfo(message="MID TIENE FLASH", title="El mid tiene flash")
+    # tkinter.messagebox.showinfo(message="MID TIENE FLASH", title="El mid tiene flash")
+
 
 def adcdvd():
     winsound.PlaySound(r'C:\Users\flavy\Downloads\adc.wav', winsound.SND_FILENAME)
-    #tkinter.messagebox.showinfo(message="ADC TIENE FLASH", title="El adc tiene flash")
+    # tkinter.messagebox.showinfo(message="ADC TIENE FLASH", title="El adc tiene flash")
+
 
 def suppdvd():
     winsound.PlaySound(r'C:\Users\flavy\Downloads\supp.wav', winsound.SND_FILENAME)
-    #tkinter.messagebox.showinfo(message="SUPP TIENE FLASH", title="El supp tiene flash")
+    # tkinter.messagebox.showinfo(message="SUPP TIENE FLASH", title="El supp tiene flash")
+
 
 boton1 = tkinter.Button(
     miFrame,
@@ -114,7 +114,5 @@ boton5 = tkinter.Button(
 )
 boton5.pack()
 boton5.place(x=480, y=150)
-
-
 
 raiz.mainloop()
